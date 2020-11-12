@@ -1,0 +1,13 @@
+{
+  "appId": "uk.co.usefulservices",
+  "appName": "Useful",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  },
+  "cordova": {}
+}
