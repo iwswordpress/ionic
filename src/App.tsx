@@ -1,11 +1,6 @@
-import {
-  IonApp,
-  IonContent,
-  IonHeader,
-  IonTitle,
-  IonToolbar
-} from '@ionic/react';
+import { IonApp, IonHeader, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
+import Home from './pages/Home';
 
 const App: React.FC = () => {
   return (
@@ -15,7 +10,7 @@ const App: React.FC = () => {
           <IonTitle>DAILY MOMENTS</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className='ion-padding'>Add some content here…</IonContent>
+      <Home />
     </IonApp>
   );
 };
